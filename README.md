@@ -1,2 +1,29 @@
-# debian-home-soc
-Repositório de estudos e projetos em Blue Team / SOC Analysis.  Contém scripts de automação, análises de logs, write-ups de THM/HTB  e implementações de ferramentas de segurança defensiva.  SIEM básico, análise forense, detecção de ameaças e hardening Linux.
+🛡️ Blue Team Portfolio | Jornada SOC Analyst
+
+![GitHub last commit](https://img.shields.io/github/last-commit/seuuser/blue-team-portfolio)
+![THM](https://img.shields.io/badge/TryHackMe-Profile-blue)
+![OS](https://img.shields.io/badge/OS-Debian_Linux-red)
+
+## 📌 Sobre
+Repositório dedicado a documentar minha jornada de estudos e projetos em Cybersecurity, com foco inicial em **Blue Team / SOC Analysis**. 
+Aqui você encontrará implementações práticas de conceitos defensivos, scripts de automação e análises de cenários reais.
+
+## 🎯 Objetivo
+Construir um portfólio técnico sólido para transição de carreira para **Analista de SOC Júnior**, demonstrando habilidades práticas em:
+- Monitoramento e análise de logs
+- Detecção e resposta a incidentes
+- Hardening de sistemas Linux
+- Automação de tarefas SOC com Python/Bash
+
+## 🚀 Projetos em Destaque
+
+### 1. **Home SOC Lab**
+SIEM caseiro utilizando Wazuh + ELK Stack para monitoramento do meu ambiente Debian pessoal.
+- [ ] Monitoramento em tempo real
+- [ ] Regras de detecção personalizadas
+- [ ] Dashboard com métricas de segurança
+
+### 2. **Debian Security Monitor**
+Script Python que analisa logs de autenticação e sistema, gerando alertas para atividades suspeitas.
+```bash
+python3 security-monitor.py --logs /var/log/auth.log
