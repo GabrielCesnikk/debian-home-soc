@@ -27,3 +27,22 @@ SIEM caseiro utilizando Wazuh + ELK Stack para monitoramento do meu ambiente Deb
 Script Python que analisa logs de autenticação e sistema, gerando alertas para atividades suspeitas.
 ```bash
 python3 security-monitor.py --logs /var/log/auth.log
+
+
+
+## 📂 Estrutura do Repositório
+
+### `write-ups/`
+Anotações de estudos e write-ups de CTFs.
+- **`thm/primeiras-impressoes.md`**: Minhas primeiras impressões do TryHackMe
+
+### `scripts/`
+Scripts Python e Bash para automação.
+- **`primeiro-script.py`**: Script de apresentação e estatísticas
+
+### `projects/`
+Projetos completos com documentação.
+- **`meu-primeiro-lab/`**: Meu laboratório caseiro de cybersecurity
+
+### `labs/`
+Configurações de laboratórios e ambientes de teste.
